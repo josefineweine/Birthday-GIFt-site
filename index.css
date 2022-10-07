@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: white;
+    color: black;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+/* .menu {
+    text-align: center;
+    color: white;
+    background: #e5383b;
+    font-size: px;
+    font-weight: bold;
+}
+
+menu:hover {
+    background: #ba181b;
+} */
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid black;
+    margin-bottom: 10px;
+   
+}
+
+#bday-age {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 10px; 
+    background-image: url("red-ribbon-bow-isolated-on-260nw-262044125.webp")
+    
+}
+
+
+.gift-img:hover{
+   background-image: url("giphydog.gif");
+    width: 350px;
+    height: 480px;
+    
+ }
+ 
+ #footer {
+    width: 400px;
+    margin: 40px auto 20px;
+    font-style: italic;
+ }
+
+ 
+ a {
+     color: black;
+ }
